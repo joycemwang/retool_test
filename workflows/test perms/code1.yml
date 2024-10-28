@@ -38,6 +38,7 @@ template:
     - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
@@ -87,20 +88,18 @@ blockData:
         type: group
     groupAssignments: []
     adminUserAssignments: []
+    groupAssignmentNames: []
     inputsTemplateString: '{}'
     adminGroupAssignments:
-      - 1
       - 2
-    groupAssignmentNames: []
+    adminGroupAssignmentNames:
+      - editor
+    adminUserAssignmentEmails: []
     assigneesWithTextIdentifiers:
       - type: user
         email: admin@seed.retool.com
       - type: group
         name: viewer
-    adminGroupAssignmentNames:
-      - admin
-      - editor
-    adminUserAssignmentEmails: []
   pluginId: code1
   blockType: asyncTask
   dimensions:
