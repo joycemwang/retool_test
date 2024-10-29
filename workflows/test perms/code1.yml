@@ -86,6 +86,10 @@ blockData:
         type: user
       - id: 3
         type: group
+      - id: 2
+        type: group
+      - id: 4
+        type: group
     groupAssignments: []
     adminUserAssignments: []
     groupAssignmentNames: []
@@ -100,6 +104,10 @@ blockData:
         email: admin@seed.retool.com
       - type: group
         name: viewer
+      - type: group
+        name: editor
+      - type: group
+        name: All Users
   pluginId: code1
   blockType: asyncTask
   dimensions:
