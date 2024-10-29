@@ -82,11 +82,10 @@ blockData:
       uuid: 27947eec-828d-11ef-9b88-13d496a3295f
       saveId: 155
     assignees:
-      - id: 1
-        type: user
-      - id: 3
+      - id: 4
         type: group
-    groupAssignments: []
+    groupAssignments:
+      - 4
     adminUserAssignments: []
     groupAssignmentNames: []
     inputsTemplateString: '{}'
@@ -98,8 +97,8 @@ blockData:
     assigneesWithTextIdentifiers:
       - type: user
         email: admin@seed.retool.com
-      - type: group
-        name: viewer
+      - name: viewer
+        type: group
   pluginId: code1
   blockType: asyncTask
   dimensions:
