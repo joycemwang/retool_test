@@ -48,6 +48,7 @@ template:
     - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
+    - isHidden: false
     - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - evalType: script
