@@ -49,6 +49,7 @@ template:
     - resourceTypeOverride: null
     - watchedParams: []
     - enableErrorTransformer: false
+    - isHidden: false
     - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - evalType: script
@@ -78,9 +79,7 @@ blockData:
   uuid: d051bf75-07f5-4567-bd24-7b724b84d760
   options:
     taskType: userTask
-    appConfig:
-      uuid: 27947eec-828d-11ef-9b88-13d496a3295f
-      saveId: 155
+    appConfig: []
     assignees:
       - id: 1
         type: user
@@ -92,13 +91,10 @@ blockData:
         type: group
     groupAssignments: []
     adminUserAssignments: []
-    groupAssignmentNames: []
     inputsTemplateString: '{}'
     adminGroupAssignments:
       - 2
-    adminGroupAssignmentNames:
-      - editor
-    adminUserAssignmentEmails: []
+    groupAssignmentNames: []
     assigneesWithTextIdentifiers:
       - type: user
         email: admin@seed.retool.com
@@ -108,6 +104,9 @@ blockData:
         name: editor
       - type: group
         name: All Users
+    adminGroupAssignmentNames:
+      - editor
+    adminUserAssignmentEmails: []
   pluginId: code1
   blockType: asyncTask
   dimensions:
