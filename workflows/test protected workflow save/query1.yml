@@ -1,16 +1,16 @@
-id: code1
+id: query1
 type: datasource
-subtype: SqlQueryUnified
-resourceName: '[demo resource] Snowflake'
-resourceDisplayName: Snowflake
+subtype: NoSqlQuery
+resourceName: '[demo resource] MongoDB'
+resourceDisplayName: MongoDB
 template:
   ordered:
     - queryRefreshTime: ''
+    - method: find
     - allowedGroupIds: []
     - streamResponse: false
-    - records: ''
     - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
+    - aggregation: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - offlineUserQueryInputs: ''
@@ -21,36 +21,32 @@ template:
     - resourceNameOverride: ''
     - runWhenModelUpdates: false
     - showFailureToaster: true
+    - hint: ''
     - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
+    - update: ''
     - privateParams: []
     - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
+    - useRawCollectionName: false
     - data: null
-    - recordId: ''
+    - operations: ''
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
-    - dataArray: []
     - cacheKeyTtl: ''
-    - filterBy: ''
     - requestSentTimestamp: null
-    - databaseHostOverride: ''
+    - projection: ''
     - metadata: null
-    - editorMode: sql
     - queryRunTime: null
-    - actionType: ''
     - changesetObject: ''
-    - shouldUseLegacySql: false
     - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
-    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
@@ -60,8 +56,7 @@ template:
     - watchedParams: []
     - enableErrorTransformer: false
     - isHidden: false
-    - databaseWarehouseOverride: ''
-    - enableBulkUpdates: false
+    - sortBy: ''
     - showLatestVersionUpdatedWarning: false
     - timestamp: 0
     - evalType: script
@@ -70,34 +65,35 @@ template:
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
     - overrideOrgCacheForUserCache: false
-    - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
     - transformer: return data
     - events: []
-    - tableName: ''
+    - insert: ''
     - queryTimeout: '10000'
+    - field: ''
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
+    - database: ''
     - changesetIsObject: false
+    - limit: ''
     - enableCaching: false
     - allowedGroups: []
-    - databaseUsernameOverride: ''
-    - databaseRoleOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
+    - options: ''
+    - collection: ''
+    - skip: ''
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2025-01-27T18:17:32.785Z
+createdAt: 2025-01-27T18:20:58.261Z
 blockData:
-  top: 48
-  left: 528
-  uuid: 79e93047-75c9-4079-8640-cbe71962290b
-  pluginId: code1
+  top: 64
+  left: 592
+  uuid: b7af907b-5ff9-4486-b78c-f4a6544e35e3
+  pluginId: query1
   blockType: default
-  editorType: SqlQueryUnified
-  resourceName: '[demo resource] Snowflake'
+  editorType: NoSqlQuery
+  resourceName: '[demo resource] MongoDB'
   incomingOnSuccessEdges:
     - 21dc6612-faaa-46e6-a2c1-3b7dc6e9138e
