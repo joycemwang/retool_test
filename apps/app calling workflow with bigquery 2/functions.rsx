@@ -1,0 +1,9 @@
+<GlobalFunctions>
+  <WorkflowRun
+    id="query1"
+    notificationDuration={4.5}
+    resourceName="WorkflowRun"
+    showSuccessToaster={false}
+    workflowId="84832381-2938-40a6-b95c-4beabd6c378c"
+  />
+</GlobalFunctions>
